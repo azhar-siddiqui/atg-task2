@@ -1,0 +1,105 @@
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+.w-100 {
+  width: 100%;
+}
+
+.home__Container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.home__Container .first-child,
+.second-child {
+  border: 1px solid #dddada;
+  width: 100%;
+  gap: 20px;
+}
+
+.heading {
+  font-weight: 400;
+  background-color: #c5dfff;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+.user-section > img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin: 5px 10px;
+}
+.w-100.ml-50 {
+  margin-left: 50px;
+}
+
+/* Second Child Css Start */
+
+.d-flex.flex-column.align-items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flex.flex-column.align-items-center > img {
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.user__Bio {
+  width: 70%;
+  resize: none;
+  background-color: #dbdbdb;
+  padding: 15px;
+  outline: none;
+}
+
+.user_Details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_Details.mt-20 > input {
+  padding: 5px;
+  outline: none;
+  background-color: #ececec;
+  border: 1px solid black;
+}
+/* Second Child Css End */
+
+@media screen and (max-width: 800px) {
+  .home__Container {
+    display: block;
+  }
+  .w-100.ml-50 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
